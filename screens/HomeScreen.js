@@ -1,12 +1,9 @@
 import React from "react";
 import { View, Text } from "react-native";
+import CircleComponent from "../components/CircleComponent";
 
 function HomeScreen() {
-  return (
-    <View>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
-  );
+  return <View className="flex-1 justify-center items-center"></View>;
 }
 
 export default HomeScreen;
